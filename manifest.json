@@ -1,6 +1,6 @@
 {
   "name": "Send To Bishou APP",
-  "version": "1.0",
+  "version": "2.0",
   "description": "将链接收藏至必收!",
   "manifest_version": 2,
   "background": {
@@ -10,7 +10,7 @@
     "default_icon": {
       "128": "images/icon.png"
     },
-    "default_popup": "popup_j.html",
+    "default_popup": "",
     "default_title": "收藏至必收"
   },
   "icons": {
@@ -21,16 +21,18 @@
     "64": "images/icon.png",
     "96": "images/icon.png"
   },
-  "options_page": "options.html",
+  "options_page": "",
   "permissions": [
     "nativeMessaging",
+    "clipboardWrite",
     "\u003Call_urls>",
     "activeTab",
     "contextMenus",
     "storage",
     "http://*/*",
     "https://*/*",
-    "tabs"
+    "tabs",
+     "notifications"
   ],
   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx"
 }
