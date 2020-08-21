@@ -25,7 +25,8 @@
 
 > **mac 下注册方式：**
 ```json
-//进入：/Users/deco/Library/Application Support/Microsoft Edge Dev/NativeMessagingHosts
+//Microsoft Edge Dev ：/Users/deco/Library/Application Support/Microsoft Edge Dev/NativeMessagingHosts
+//Google Chrome : /Users/deco/Library/Application Support/Google/Chrome/NativeMessagingHosts
 //新建文件： com.bishou.bishouapp.json
 //文件内容如下：
 {
